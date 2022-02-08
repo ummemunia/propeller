@@ -1,0 +1,54 @@
+.propeller{
+    width: 992px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(208, 255, 147);
+}
+.propeller .img6{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+.propeller .img5{
+    position: absolute;
+    top: 65.5%;
+    left: 52%;
+}
+.propeller .img4{
+    position: absolute;
+    top: 63%;
+    left: 52.8%;
+}
+.propeller .img3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.propeller .img2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 90px;
+    height: 70px;
+}
+.propeller .img2 img{
+    width: 100%;
+    height: 100%;
+}
+.propeller .img1{
+    position: absolute;
+    top: 57.6%;
+    left: 53.2%;
+}
